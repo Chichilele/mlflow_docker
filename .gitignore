@@ -1,3 +1,4 @@
 artifacts/
 pyenv_mlflow
 *.db
+*.env
