@@ -1,0 +1,3 @@
+artifacts/
+pyenv_mlflow
+*.db
