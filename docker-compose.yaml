@@ -6,7 +6,7 @@ services:
       context: ./
       dockerfile: ./Dockerfile
     volumes:
-      - .:/data/mlflow/
+      - mlflow:/data/mlflow/
     ports:
       - 5123:5123
     networks: 
@@ -18,3 +18,6 @@ networks:
   mlops:
     external: true
     name: mlops
+
+volumes: 
+  mlflow:
