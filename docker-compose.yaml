@@ -3,7 +3,7 @@ version: "3.8"
 services:
   mlflow:
     build:
-      context: ./
+      context: ./docker_image
       dockerfile: ./Dockerfile
     volumes:
       - mlflow:/data/mlflow/
