@@ -1,7 +1,5 @@
 FROM python:3.8-slim-buster
 
-RUN mkdir -p /data/mlflow/
-
 COPY requirements.txt start_server.sh ./
 
 RUN apt-get update && apt-get install -y python3 && \
